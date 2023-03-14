@@ -1,0 +1,38 @@
+CREATE TABLE FarmFresh (id INTEGER PRIMARY KEY, Item TEXT, Quantity Integer, Brand TEXT, Price REAL)
+/* Creates table for shop*/
+
+/*start of item list*/
+INSERT INTO FarmFresh VALUES
+    (1, "Oranges", 10, "Halo", 5);
+INSERT INTO farmfresh VALUES 
+    (2, 'Oranges', 9, 'Manda', 3);
+INSERT INTO farmfresh VALUES 
+    (3, 'Strawberries', 20, 'Maple', 2);
+INSERT INTO farmfresh VALUES 
+    (4, 'Strawberries', 15, 'Mars', 4);
+INSERT INTO farmfresh VALUES 
+    (5, 'Strawberries', 14, 'Fall', 1);
+INSERT INTO farmfresh VALUES 
+    (6, 'Kiwi', 13, 'Fall', 2);
+INSERT INTO farmfresh VALUES 
+    (7, 'Kiwi', 2, 'New Zeland', 5);
+INSERT INTO farmfresh VALUES 
+    (8, 'Red Grapes', 8, 'Fall', 3);
+INSERT INTO farmfresh VALUES 
+    (9, 'Green Grapes', 3,'Mars', 5);
+INSERT INTO farmfresh VALUES 
+    (10, 'Red Grapes', 0, 'Mars', 4);
+INSERT INTO farmfresh VALUES 
+    (11, 'Green Grapes', 7, 'Galore', 4);
+INSERT INTO farmfresh VALUES 
+    (12, 'Star', 9, 'Manda', 5);
+INSERT INTO farmfresh VALUES 
+    (13, 'Passion', 14, 'Mars', 5);
+INSERT INTO farmfresh VALUES 
+    (14, 'Potatoes', 27, 'Fall', 3);
+INSERT INTO farmfresh VALUES 
+    (15, 'Red Potatoes', 24, 'Mars', 3);
+/*End of item list*/
+
+/*shows name, price, and quantity*/
+Select Name, Quantity, Price FROM farmfresh ORDER BY price;
